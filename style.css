@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'rimouski';
+    src: url(./font/rimouski.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'rimouski', sans-serif;
+    background: linear-gradient(90deg, rgba(83, 105, 118, 1) 0%, rgba(187, 210, 197, 1) 100%);
+}
+
+.container {
+    
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, .15);
+    
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+
+.weather-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.062);
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-title {
+    padding: 1px;
+    margin: 9px;
+}
+
+.notification {
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.11);
+    width: 100%;
+        visibility: hidden;
+            margin-top: 19px;
+            padding: 4px 0px;
+    
+}
+
+.temperature-value>p {
+    font-size: xx-large
+    
+}
+
+.temperature-value{
+    cursor: pointer;
+    -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+.temperature-description {
+    margin-top: 10px;
+}
+
+.location {
+    margin-top: 10px;
+}
+
+.tag{
+    margin-top: 40px;
+    
+}
+
+.tag>span{
+    font-weight:600;
+    color: rgb(37, 37, 37);
+    font-family:'Poppins', sans-serif ;
+    margin-left: 8px;
+}
